@@ -1,2 +1,3 @@
 # Movie-recommendation
-Created with CodeSandbox
+A simple movie recommendation using react.
+
