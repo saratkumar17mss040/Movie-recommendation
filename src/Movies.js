@@ -1,5 +1,5 @@
 export const movies = {
-  programming: [
+  Programming: [
     {
       movieName: "Social Network",
       rating: 3
@@ -13,7 +13,7 @@ export const movies = {
       rating: 5
     }
   ],
-  action: [
+  Action: [
     {
       movieName: "Wonder woman",
       rating: 3
@@ -27,7 +27,7 @@ export const movies = {
       rating: 2
     }
   ],
-  adventure: [
+  Adventure: [
     {
       movieName: "Ready player one",
       rating: 4

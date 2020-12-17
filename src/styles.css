@@ -1,39 +1,49 @@
 :root {
-  font-size: 16px;
+	font-size: 16px;
+}
+
+body {
+	background-color: #f1ae89;
 }
 
 .App {
-  font-family: sans-serif;
-  max-width: 500px;
-  margin: auto;
-  padding: 3rem;
-  font-size: 0.7em;
+	font-family: sans-serif;
+	max-width: 500px;
+	margin: auto;
+	padding: 3rem;
+	font-size: 0.7em;
 }
 
 p {
-  font-size: 0.7rem;
+	font-size: 0.7rem;
 }
 
 button {
-  border-radius: 0.5rem;
-  background-color: #688cda;
-  cursor: pointer;
-  border: 1px solid black;
-  padding: 0.5rem 1rem;
-  margin: 1rem 0.3rem;
-  color: #ffffff;
+	border-radius: 0.5rem;
+	background-color: #688cda;
+	cursor: pointer;
+	border: 1px solid black;
+	padding: 0.5rem 1rem;
+	margin: 1rem 0.3rem;
+	color: #ffffff;
 }
 
 .stars {
-  display: inline-block;
-  padding-top: 0.1rem;
+	display: inline-block;
+	padding-top: 0.1rem;
 }
 
 li {
-  list-style: none;
-  border: 2px solid gray;
-  margin: 1rem 0rem;
-  padding: 1rem;
-  width: 89%;
-  border-radius: 0.5rem;
+	list-style: none;
+	border: 2px solid gray;
+	margin: 1rem 0rem;
+	padding: 1rem;
+	width: 89%;
+	border-radius: 0.5rem;
+	background-color: #dff3e3;
+}
+li:hover {
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }

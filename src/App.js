@@ -3,7 +3,7 @@ import { movies } from "./Movies";
 import "./styles.css";
 
 export default function App() {
-  const [selectedCategory, setCategory] = useState("programming");
+  const [selectedCategory, setCategory] = useState("Programming");
 
   function categoryClickHandler(category) {
     setCategory(category);
